@@ -2,23 +2,17 @@
 # of its square root
 #Author: Jamie Tohall
 
-Number = int (input("Please enter a positive number:"))
- 
-#define positive number
-#if X %2:
-    #print(result)
+Number = float(input("Please enter a positive number: "))
+
+def SqRt (Number):
     
-#elif X <0:
-    #print("Cannot accept a negative number. Please enter a positive number")
+    approx = 0.5 * Number
+    root = 0.5 * (approx+(Number/approx)) 
     
-#elif X 
+    while root !=approx:
+        approx = root
+        root = (approx+(Number/approx))/2
+    
+    return approx
 
-#defining a negative number so I can return an error
-
-
-# Defining my function 
-result = Number**0.5
-        
-#results-
-print ("The square root of {} is approx {} ".format(Number, result))
- 
+print ("The square root of", Number,"is approximately {:.1f}".format(float(SqRt(Number))))
