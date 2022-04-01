@@ -4,6 +4,7 @@
 
 Number = float(input("Please enter a positive number: "))
 
+
 def SqRt (Number):
     
     approx = 0.5 * Number
