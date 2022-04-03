@@ -1,7 +1,7 @@
-# Programme that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range[0,4]
-# on the one set of axes
+# Programme that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range[0,4] on the one set of axes
 # Author: Jamie Tohall
 
+# Import functions
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -25,6 +25,7 @@ plt.plot (xpoints, ypoints, label="H(x)=X3", marker='D', mec='r', color="orange"
 # With all the functions above I have labelled them, set a diamond marker with a red edge, edited
 # the colours of the lines and increased the line width. 
 
+
 plt.title ("Functions", fontsize=25, color="grey") 
 # Added a title to the graph, edited the colour and increased the font size
 plt.xlabel("X Axis")
@@ -38,4 +39,3 @@ plt.grid()
 plt.savefig('Plottask.png')
 plt.show()
 # Shows final plot and saves it
-
