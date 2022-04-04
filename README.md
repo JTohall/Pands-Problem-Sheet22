@@ -8,15 +8,17 @@
 
 ## Task 2 - BMI.py
 
-Write a programme that calcualtes somebody's Body Mass Index (BMI)
+Objective
+> Write a programme that calcualtes somebody's Body Mass Index (BMI)
 
 ### References
 __________________________________________________________________________________________________________________________________________________________
 
 ## Task 3 - Secondstring.py
 
+'''
 Write a programme that asks a user to input a string and outputs every second letter in reverse order
-
+'''
 ### References
 
 __________________________________________________________________________________________________________________________________________________________
