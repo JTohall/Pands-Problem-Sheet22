@@ -5,21 +5,24 @@
 # Author: Jamie Tohall
 
 
-number = int(input("Please enter a positive integer:"))
+number = int(input("Please enter a positive integer: "))
+# Programme starts by asking the user to enter a positive integer
 
 
+while number  !=1: 
 # while loop - so the next value is returned until the number 1 is reached
-while number  >1: 
     
-# If the number is even - divide by two
+# If the number is even (Able to be divided by 2 - '% 2') - divide by two and print
     if number % 2 == 0: 
-        print(number//2)
         number = number //2
+        
+        print(number, end =' ')
             
-# If the number is odd - multiply by three and add 1. 
+# If the number returned in the sequence is odd - multiply it by three and add 1
+# 3*number+1 is the sequence used to complete this calcualtion
+
     elif number % 2 == 1:
-            print(3*number+1)
             number = 3*number+1
             
-# Programme also works if an odd integer is entered. I wasn't sure how to add a ValueError return
-# for an odd number.
+            print(number, end = ' ')
+            
