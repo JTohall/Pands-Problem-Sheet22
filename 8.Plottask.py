@@ -1,4 +1,4 @@
-# Programme that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range[0,4] on the one set of axes
+# Programme that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range[0,4] on the one set of axis
 # Author: Jamie Tohall
 
 # Import functions
@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 xpoints = np.array (range(0,5))
-# Setting the variables, this will show a range of 0-4 on the X axies
+# Setting the variables, this will show a range of 0-4 on the X axis
 
 # Calculating the functions and plotting below
 
@@ -30,7 +30,7 @@ plt.title ("Functions", fontsize=25, color="grey")
 # Added a title to the graph, edited the colour and increased the font size
 plt.xlabel("X Axis")
 plt.ylabel("Y Axis")
-# Labelled the X and Y axies
+# Labelled the X and Y axis
 plt.legend()
 # Added a legend, which incoporated the labels of the functions above
 plt.grid()
