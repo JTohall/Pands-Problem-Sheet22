@@ -46,9 +46,9 @@ ________________________________________________________________________________
 
 ### References
 
-[1] Stackoverflow.com - https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python
-[2] Geeksforgeeks.org - https://www.geeksforgeeks.org/python-datetime-weekday-method-with-example/
-[3] Pythonic.com -  https://pythontic.com/datetime/date/weekday
+-[1] Stackoverflow.com - https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python
+-[2] Geeksforgeeks.org - https://www.geeksforgeeks.org/python-datetime-weekday-method-with-example/
+-[3] Pythonic.com -  https://pythontic.com/datetime/date/weekday
 
 __________________________________________________________________________________________________________________________________________________________
 
