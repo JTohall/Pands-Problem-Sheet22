@@ -13,6 +13,12 @@
 > Write a programme that calcualtes somebody's Body Mass Index (BMI)
 
 ### References
+
+[1] Github.com (How to calculate BMI of a person for info) - https://secondminute.github.io/how-to-calculate-bmi-of-a-person/
+
+[2] youtube.com (Python - BMI calculator (Wrt Tech)) - https://www.youtube.com/watch?v=g9jO0kKnZT0
+
+[3] W3schools.com (Python If... Else) https://www.w3schools.com/python/python_conditions.asp
 __________________________________________________________________________________________________________________________________________________________
 
 
@@ -46,9 +52,13 @@ ________________________________________________________________________________
 
 ### References
 
--[1] Stackoverflow.com - https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python
--[2] Geeksforgeeks.org - https://www.geeksforgeeks.org/python-datetime-weekday-method-with-example/
--[3] Pythonic.com -  https://pythontic.com/datetime/date/weekday
+[1] Stackoverflow.com (Questions) - https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python
+
+[2] Geeksforgeeks.org (Python dateTime Weekday() Method with Example)- https://www.geeksforgeeks.org/python-datetime-weekday-method-with-example/
+
+[3] Pythonic.com (Weekday Function in Python) -  https://pythontic.com/datetime/date/weekday
+
+[4] W3schools.com (Python DateTime) - https://www.w3schools.com/python/python_datetime.asp
 
 __________________________________________________________________________________________________________________________________________________________
 
