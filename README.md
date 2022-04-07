@@ -11,9 +11,19 @@
 <br/>
 <br/>
 
+__________________________________________________________________________________________________________________________________________________________
 ## Task 2 - BMI.py
+<br/>
 
-> Write a programme that calcualtes somebody's Body Mass Index (BMI).
+> Write a programme that calculates somebody's Body Mass Index (BMI).
+
+<br/>
+
+This was the first assigned weekly task. After completing week two lectures and labs, as well as doing my own research, I found the programme straightforward.
+I added the 'If/Elif' statements after seeing them in 'Wrt Tech's video on creating a BMI calculator. I thought it was nice touch to add some extra feedback in the output, letting the user know what weight range they are in as well as their BMI score, but it also gave me some experience in using If/Elif statements. <br/>
+I received feedback on my weekly tasks from Andrew in week 7 and it was suggested that I get the output to two decimal places. I used the "str.format()" with "{:.2f}" to print the float with two decimal places. I was not familiar with this string format in week two, but I used it in my week six task 'Squareroot', so I had an idea how to solve this. 
+
+<br/>
 
 ### References
 
@@ -24,14 +34,20 @@
 [3] W3schools.com (Python If... Else) https://www.w3schools.com/python/python_conditions.asp
 
 [4] Pythonguides (Python Print to Two Decimal Places) - https://pythonguides.com/python-print-2-decimal-places/#:~:text=In%20Python%2C%20to%20print%202%20decimal%20places%20we,will%20print%20the%20float%20with%202%20decimal%20places.
+
+<br/>
+
 __________________________________________________________________________________________________________________________________________________________
-
-
-
 ## Task 3 - Secondstring.py
+<br/>
 
 > Write a programme that asks a user to input a string and outputs every second letter in reverse order.
 
+<br/>
+
+I found this task 
+
+<br/>
 
 ### References
 
@@ -43,16 +59,17 @@ ________________________________________________________________________________
 
 [4] Pythonforbeginners.com (String Slicing in Python) -  https://www.pythonforbeginners.com/strings/string-slicing-in-python
 
+<br/>
 
 __________________________________________________________________________________________________________________________________________________________
-
-
-
 ## Task 4 - Collatz.py
+<br/>
 
 > Write a programme that asks the user to input any positive integer and outputs the successive values of the following calculation.
 > At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
 > Have the programme end if the current value is one.
+
+<br/>
 
 ### References
 
@@ -68,13 +85,15 @@ ________________________________________________________________________________
 
 [6] Youtube.com (Collatz Sequence Algorithm in Python (StudentEngineer) - https://www.youtube.com/watch?v=lAp_5qTdOhM
 
+<br/>
+
 __________________________________________________________________________________________________________________________________________________________
-
-
-
 ## Task 5 - Weekday.py
+<br/>
 
 > Write a programme that outputs whether or not today is a weekday. 
+
+<br/>
 
 ### References
 
@@ -86,15 +105,16 @@ ________________________________________________________________________________
 
 [4] W3schools.com (Python DateTime) - https://www.w3schools.com/python/python_datetime.asp
 
+<br/>
 
 __________________________________________________________________________________________________________________________________________________________
-
-
-
 ## Task 6 - Squareroot.py
+<br/>
 
 > Write a programme that takes a positive floating-point number as input and outputs an approximation of its square root. You should create a function called SqRt 
 > that does this. I am asking you to create your own square root function and I suggest you look at the Newton Method at estimating square roots.
+
+<br/>
 
 ### References
 
@@ -110,13 +130,15 @@ ________________________________________________________________________________
 
 [6] Tutorialsinhand.com (Python Programme to find Square Root of a Number by Newtown's Method) - https://tutorialsinhand.com/Articles/python-program-to-find-square-root-of-a-number-using-newton-square-root-formula.aspx#:~:text=%F0%9F%92%BB%20Program%20For%20finding%20Square%20root%20using%20Newton%27s,%28approx_root%20%2B%20n%2Fapprox_root%29%20approx_root%20%3D%20betterapprox%20return%20betterapprox
 
+<br/>
+
 __________________________________________________________________________________________________________________________________________________________
-
-
-
 ## Task 7 - Es.py
+<br/>
 
 > Write a programme that reads in a text file and outputs the number of e's it contains. Think about what is being asked here and document any assumptions you are making. The programme should take the filename from an argument on the command line. 
+
+<br/>
 
 ### References
 
@@ -128,13 +150,15 @@ ________________________________________________________________________________
 
 [4] Pythonexamples.org (Python - Count Occurrences of a Word in Text File) - https://pythonexamples.org/python-count-occurrences-of-word-in-text-file/
 
+<br/>
+
 __________________________________________________________________________________________________________________________________________________________
-
-
-
 ## Task 8 - Plottask.py
+<br/>
 
-> write a programme that displays a plot of the functions f(x)=x, g(x)=x2, h(x)=x3 in the range [0,4] on the one set of axes. 
+> Write a programme that displays a plot of the functions f(x)=x, g(x)=x2, h(x)=x3 in the range [0,4] on the one set of axes. 
+
+<br/>
 
 ### References
 
@@ -147,4 +171,7 @@ ________________________________________________________________________________
 [4] W3schools.com (Matplotlib Markers) - https://www.w3schools.com/python/matplotlib_markers.asp
 
 [5] Numpy.org (Numpy.array) - https://numpy.org/doc/stable/reference/generated/numpy.array.html
+
+<br/>
+
 __________________________________________________________________________________________________________________________________________________________
