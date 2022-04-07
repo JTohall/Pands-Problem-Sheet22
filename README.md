@@ -11,6 +11,7 @@
 <br/>
 <br/>
 
+
 __________________________________________________________________________________________________________________________________________________________
 ## Task 2 - BMI.py
 <br/>
@@ -20,7 +21,7 @@ ________________________________________________________________________________
 <br/>
 
 This was the first assigned weekly task. After completing week two lectures and labs, as well as doing my own research, I found the programme straightforward.
-I added the 'If/Elif' statements after seeing them in 'Wrt Tech's video on creating a BMI calculator. I thought it was nice touch to add some extra feedback in the output, letting the user know what weight range they are in as well as their BMI score, but it also gave me some experience in using If/Elif statements. <br/>
+I added the 'If/Elif' statements after seeing them in 'Wrt Tech's video on creating a BMI calculator. I thought it was a good idea to add some extra feedback in the output, letting the user know what weight range they are in as well as their BMI score, but it also gave me some experience in using If/Elif statements. <br/>
 I received feedback on my weekly tasks from Andrew in week 7 and it was suggested that I get the output to two decimal places. I used the "str.format()" with "{:.2f}" to print the float with two decimal places. I was not familiar with this string format in week two, but I used it in my week six task 'Squareroot', so I had an idea how to solve this. 
 
 <br/>
@@ -45,7 +46,7 @@ ________________________________________________________________________________
 
 <br/>
 
-I found this task 
+This programme starts by asking the user to 'Please input a sentence:', and defines the input as 'Sentence'. To print the sentence in reverse order with every second letter missing, the slicing syntax ```[::-2]``` is used. The -2 will extract every second letter. 
 
 <br/>
 
@@ -68,6 +69,14 @@ ________________________________________________________________________________
 > Write a programme that asks the user to input any positive integer and outputs the successive values of the following calculation.
 > At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
 > Have the programme end if the current value is one.
+
+<br/>
+
+"The Collatz conjecture in mathematics asks whether repeating two simple arithmetic operations will eventually transform every positive integer into one. It concerns sequences of integers in which each term is obtained from the previous term as follows: if the previous term is even, the next term is one half of the previous term. If the previous term is odd, the next term is 3 times the previous term plus 1. The conjecture is that these sequences always reach 1, no matter which positive integer is chosen to start the sequence." (Wikipedia)
+
+<br/>
+
+I start the programme by asking the user to input a positive integer, using the int() function to convert the given value into an integer. I used the while loop, so a number is continiously returned until the value is 1, using the command ```"While number !:1"```. In accorance with the Collatz Conjecture, if the number is positive, it will then be divided by two. I used an 'If' statement and entered the command of ```'If number %2==0: number=number//2```. If a number in the sequence or the number inputted by the user is an odd number, it will be multiplied by three and add one. Therefore I used the following 'Elif' statement ```elif number %2==1: number=3*number+1```, which will execute the conjecture. Both If anf Elif statments are followed by the print command ```print(number, end =' ')``` so the output will be following Collatz sequence from the number 10 printed on the same line. If for example the input number was 10, the programme output would look like: ```5 16 8 4 2 1```. 
 
 <br/>
 
