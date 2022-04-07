@@ -1,9 +1,13 @@
 # **Pands Problem Sheet**
 <br/>
 
-### Author: Jamie Tohall
-### Student Number: G00411380
-### Submission Date: 29th April 2022
+#### Author: Jamie Tohall
+#### Student Number: G00411380
+<br/>
+
+#### Module: Programming and Scripting
+#### Lecturer: Andrew Beattie
+#### Submission Date: 29th April 2022
 <br/>
 <br/>
 
@@ -122,7 +126,7 @@ ________________________________________________________________________________
 
 [3] Simplilearn.com (Count in Python - All you Need to Know About It) - https://www.simplilearn.com/tutorials/python-tutorial/count-in-python#:~:text=The%20count%20%28%29%20method%20is%20one%20of%20the,and%20the%20number%20of%20cells%20contains%20numbers%20too.
 
-[4] 
+[4] Pythonexamples.org (Python - Count Occurrences of a Word in Text File) - https://pythonexamples.org/python-count-occurrences-of-word-in-text-file/
 
 __________________________________________________________________________________________________________________________________________________________
 
