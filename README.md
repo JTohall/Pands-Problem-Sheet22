@@ -166,17 +166,20 @@ ________________________________________________________________________________
 
 <br/>
 
-I firstly ask the user to input a positive number ```Number = float(input("Please enter a positive number: "))``` and convert the given number as a float. 
-I then created the function SqRt to calculate the approximate square root of the Number. 
-Using Newtons method I set some variables: ```approx = 0.5 * Number``` and ```root = 0.5 * (approx+(Number/approx))```
+I firstly ask the user to input a positive number ```Number = float(input("Please enter a positive number: "))``` I convert the given number as a float and sav the input as the variable "Number".<br/>
+I then created the function SqRt to calculate the approximate square root of the Number. Using Newtons method I set the variables: ```approx = 0.5 * Number``` which will multiply the input number by 0.5, and ```root = 0.5 * (approx+(Number/approx))```
 
-# While loop is used 
-    while root !=approx:
-        approx = root
-        root = (approx+(Number/approx))/2
+While loop is used so the iterations will run until the approx and root number are equal. 
+```
+while root !=approx:
+approx = root
+root = (approx+(Number/approx))/2
+
+return approx
+```
         
   
-    return approx
+    
 
 ```print ("The square root of", Number,"is approximately {:.1f}".format(float(SqRt(Number))))```Will return the approximate square root of the number to one decimal  place. 
 
