@@ -76,7 +76,7 @@ ________________________________________________________________________________
 
 <br/>
 
-I start the programme by asking the user to input a positive integer, using the int() function to convert the given value into an integer. I used the while loop, so a number is continiously returned until the value is 1, using the command ```"While number !:1"```. In accordance with Collatz Conjecture, if the number is positive, it will be divided by two. I used an 'If' statement and entered the command of ```'If number %2==0: number=number//2```. If a number in the sequence or the number inputted by the user is an odd number, it will be multiplied by three and add one. Therefore I used the following 'Elif' statement ```elif number %2==1: number=3*number+1```, which will execute the conjecture. Both If and Elif statements are followed by the print command ```print(number, end =' ')``` so the output of the sequence of numbers will be printed on the same line. I didn't add any commas between the numbers as I didn't think it was neccessary. If for example the input number was 10, the programme output would look like: ```5 16 8 4 2 1```. 
+I start the programme by asking the user to input a positive integer, using the int() function to convert the given value into an integer. I used the while loop, so a number is continiously returned until the value is 1, using the command ```"While number !:1"```. In accordance with Collatz Conjecture, if the number is positive, it will be divided by two. I used an 'If' statement and entered the command of ```If number %2==0: number=number//2```. If a number in the sequence or the number inputted by the user is an odd number, it will be multiplied by three and add one. Therefore I used the following 'Elif' statement ```elif number %2==1: number=3*number+1```, which will execute the conjecture. Both If and Elif statements are followed by the print command ```print(number, end =' ')``` so the output of the sequence of numbers will be printed on the same line. I didn't add any commas between the numbers as I didn't think it was neccessary. If for example the input number was 10, the programme output would look like: ```5 16 8 4 2 1```. 
 
 <br/>
 
@@ -171,6 +171,30 @@ ________________________________________________________________________________
 <br/>
 
 > Write a programme that reads in a text file and outputs the number of e's it contains. Think about what is being asked here and document any assumptions you are making. The programme should take the filename from an argument on the command line. 
+
+<br/>
+Firstly I imported the Sys Module, which provides various functions and variables that are used to manipulate different parts of the Python runtime environment.
+I then used the command sys.argv[1] which refers to the second argument in the command line, which is the text file MobyDick.txt.<br/>
+I created the text file in notepad, and saved it in the same folder as the programme, which is a folder on my desktop titled 'Pands-Problem-Sheet22'. The file contains the first two paragraphs from the novel 'Moby Dick'. 
+
+<br/>
+
+
+```with open (filename, "rt") as f:``` I then open the text file in a read and text mode and saved the file as 'f' which will now represent the file in the rest of the programme script. 
+
+<br/>
+
+```
+data = f.read()
+e = data.count ("e")
+E = data.count ("E") 
+```
+I use the data count module to read in the text file and count the number of E's it contains. Data.count will return the number of elements with the specified value, in this case the value is the letter E in both upper and lower case. I assumed that I had to count the upper and lower case E's seperately.
+
+<br/>
+
+```print("There are a total of {} letter E's in this file".format(e + E))``` The programme ends by printing the amount of upper and lower case letters in the text file, in this case there are 150, so the output looks like ```"There are a total of 150 letter E's in this file"```.
+
 
 <br/>
 
