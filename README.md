@@ -244,8 +244,19 @@ ________________________________________________________________________________
 <br/>
 
 To display the plot of the functions we firstly have to import the numpy module as np and matplotlib.pyplot as plt. I then set the variables ```xpoints = np.array (range(0,5))``` which will show a range of 0-4 on the X axis. When I first put in the range (0,4) it displayed 0-3 on the axis, so I went one number higher.<br/>
-I then start calculating the three functions. f(x)=x is ```ypoints = xpoints```, g(x)=x2 is ```ypoints = (xpoints ** 2)``` and h(x)=x3 is ```ypoints = (xpoints ** 3)``` 
-I edited all the functions # With all the functions above I have labelled them, set a diamond marker with a red edge, edited the colours of the lines and increased the line width.
+
+I then start calculating the three functions. f(x)=x is ```ypoints = xpoints```, g(x)=x2 is ```ypoints = (xpoints ** 2)``` and h(x)=x3 is ```ypoints = (xpoints ** 3)```.  <br/>
+
+I edited all the functions by labelling them, set a diamond marker with a red edge, edited the colours of the lines and increased the line width. ```plt.plot (xpoints, ypoints, label="F(x)=X", marker='D', mec='r', color="pink", linewidth=3)```.
+
+
+I then went on to edit the graph. I added a title to the graph, edited the colour and increased the font size ```plt.title ("Functions", fontsize=25, color="grey")```
+I also labelled the X and Y axis ```plt.xlabel("X Axis"), plt.ylabel("Y Axis")```. Added a legend, which incorporated the labels of the three functions ```plt.legend()``` and finally I added a grid to the background of the graph, for easier viewing ```plt.grid()```.
+
+Finally I save the final plot and show it ```plt.savefig('Plottask.png')```,```plt.show()```
+
+![Figure_1](https://user-images.githubusercontent.com/98059109/162537543-c0b0d1b8-f05c-4753-ae18-b1752178a928.png)
+
 
 <br/>
 
