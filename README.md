@@ -46,7 +46,19 @@ ________________________________________________________________________________
 
 <br/>
 
-This programme starts by asking the user to 'Please input a sentence:', and defines the input as 'Sentence'. To print the sentence in reverse order with every second letter missing, the slicing syntax ```[::-2]``` is used. The -2 will extract every second letter. 
+```Sentence = input("Please enter a sentence:")```
+
+This programme starts by asking the user to 'Please input a sentence:', and defines the input as 'Sentence'. 
+
+<br/>
+
+```print(Sentence[::-2])```
+
+To print the sentence in reverse order with every second letter missing, the slicing syntax ```[::-2]``` is used. The -2 will extract every second letter. 
+
+<br/>
+
+So if the users input was ```Hello World``` the output would be ```drWolH```.
 
 <br/>
 
@@ -150,6 +162,18 @@ ________________________________________________________________________________
 
 <br/>
 
+"In numerical analysis, Newton's method, also known as the Newton–Raphson method, named after Isaac Newton and Joseph Raphson, is a root-finding algorithm which produces successively better approximations to the roots (or zeroes) of a real-valued function. The idea is to start with an initial guess, then to approximate the function by its tangent line, and finally to compute the x-intercept of this tangent line. This x-intercept will typically be a better approximation to the original function's root than the first guess, and the method can be iterated." (Wikipedia)
+
+<br/>
+
+I firstly ask the user to input a positive number ```Number = float(input("Please enter a positive number: "))``` and convert the given number as a float. 
+I then created the function SqRt to calculate the approximate square root of the Number. 
+Using Newtons method I set some variables: ```approx = 0.5 * Number``` and ```root = 0.5 * (approx+(Number/approx))```
+
+```print ("The square root of", Number,"is approximately {:.1f}".format(float(SqRt(Number))))```Will return the approximate square root of the number to one decimal  place. 
+
+<br/>
+
 ### References
 
 [1] Stackoverflow.com (Writing your own Square Root Function) - https://stackoverflow.com/questions/1623375/writing-your-own-square-root-function
@@ -214,7 +238,14 @@ ________________________________________________________________________________
 ## Task 8 - Plottask.py
 <br/>
 
-> Write a programme that displays a plot of the functions f(x)=x, g(x)=x2, h(x)=x3 in the range [0,4] on the one set of axes. 
+> Write a programme that displays a plot
+> of the functions f(x)=x, g(x)=x2, h(x)=x3 in the range [0,4] on the one set of axes. 
+
+<br/>
+
+To display the plot of the functions we firstly have to import the numpy module as np and matplotlib.pyplot as plt. I then set the variables ```xpoints = np.array (range(0,5))``` which will show a range of 0-4 on the X axis. When I first put in the range (0,4) it displayed 0-3 on the axis, so I went one number higher.<br/>
+I then start calculating the three functions. f(x)=x is ```ypoints = xpoints```, g(x)=x2 is ```ypoints = (xpoints ** 2)``` and h(x)=x3 is ```ypoints = (xpoints ** 3)``` 
+I edited all the functions # With all the functions above I have labelled them, set a diamond marker with a red edge, edited the colours of the lines and increased the line width.
 
 <br/>
 
