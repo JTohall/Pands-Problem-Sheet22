@@ -170,6 +170,14 @@ I firstly ask the user to input a positive number ```Number = float(input("Pleas
 I then created the function SqRt to calculate the approximate square root of the Number. 
 Using Newtons method I set some variables: ```approx = 0.5 * Number``` and ```root = 0.5 * (approx+(Number/approx))```
 
+# While loop is used 
+    while root !=approx:
+        approx = root
+        root = (approx+(Number/approx))/2
+        
+  
+    return approx
+
 ```print ("The square root of", Number,"is approximately {:.1f}".format(float(SqRt(Number))))```Will return the approximate square root of the number to one decimal  place. 
 
 <br/>
@@ -251,7 +259,7 @@ I edited all the functions by labelling them, set a diamond marker with a red ed
 
 
 I then went on to edit the graph. I added a title to the graph, edited the colour and increased the font size ```plt.title ("Functions", fontsize=25, color="grey")```
-I also labelled the X and Y axis ```plt.xlabel("X Axis"), plt.ylabel("Y Axis")```. Added a legend, which incorporated the labels of the three functions ```plt.legend()``` and finally I added a grid to the background of the graph, for easier viewing ```plt.grid()```.
+I also labelled the X and Y axis ```plt.xlabel("X Axis"), plt.ylabel("Y Axis")```, I added a legend, which incorporated the labels of the three functions ```plt.legend()``` and finally I added a grid to the background of the graph, for easier viewing ```plt.grid()```.
 
 Finally I save the final plot and show it ```plt.savefig('Plottask.png')```,```plt.show()```
 
