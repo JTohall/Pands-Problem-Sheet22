@@ -76,7 +76,7 @@ ________________________________________________________________________________
 
 <br/>
 
-I start the programme by asking the user to input a positive integer, using the int() function to convert the given value into an integer. I used the while loop, so a number is continiously returned until the value is 1, using the command ```"While number !:1"```. In accordance with Collatz Conjecture, if the number is positive, it will be divided by two. I used an 'If' statement and entered the command of ```'If number %2==0: number=number//2```. If a number in the sequence or the number inputted by the user is an odd number, it will be multiplied by three and add one. Therefore I used the following 'Elif' statement ```elif number %2==1: number=3*number+1```, which will execute the conjecture. Both If anf Elif statements are followed by the print command ```print(number, end =' ')``` so the output of the sequence of numbers will be printed on the same line. I didn't add any commas between the numbers as I didn't think it was neccessary, and it was also not used in the example print out from Andrew. If for example the input number was 10, the programme output would look like: ```5 16 8 4 2 1```. 
+I start the programme by asking the user to input a positive integer, using the int() function to convert the given value into an integer. I used the while loop, so a number is continiously returned until the value is 1, using the command ```"While number !:1"```. In accordance with Collatz Conjecture, if the number is positive, it will be divided by two. I used an 'If' statement and entered the command of ```'If number %2==0: number=number//2```. If a number in the sequence or the number inputted by the user is an odd number, it will be multiplied by three and add one. Therefore I used the following 'Elif' statement ```elif number %2==1: number=3*number+1```, which will execute the conjecture. Both If and Elif statements are followed by the print command ```print(number, end =' ')``` so the output of the sequence of numbers will be printed on the same line. I didn't add any commas between the numbers as I didn't think it was neccessary. If for example the input number was 10, the programme output would look like: ```5 16 8 4 2 1```. 
 
 <br/>
 
@@ -104,6 +104,29 @@ ________________________________________________________________________________
 
 <br/>
 
+To create this programme I firstly imported the datetime module, which enables us to deal with date type data values in Python. I then use datetime.today() method which returns the current date, and the weekday() method which returns the day of the week as an integer ```day = datetime.datetime.today().weekday()```
+
+<br/>
+
+Below is a table showing the days of the week and the integer which represents each one. 
+
+| Day        | Integer   |
+|------------|-----------|
+| Monday     |    0      |
+| Tuesday    |    1      |
+| Wednesday  |    2      |
+| Thursday   |    3      |
+| Friday     |    4      |
+| Saturday   |    5      |
+| Sunday     |    6      |
+
+Noting that Monday is respresented by 0, the weekdays will be from 0 to 4, so I used If and Elif statements to distinguish the weekdays from the weekend. <br/>
+```If day <5: print("Unfortunately today is a weekday :(")``` So if the current day is less than the number 5 (Saturday) then it means it is a Weekday.<br/>
+```else: print("It's the weekend, yay!")``` Else will represent the rest of the values that aren't less than the number 5, which are 5 and 6 (Saturday and Sunday) so we know that the current day is not a weekday. 
+
+
+<br/>
+
 ### References
 
 [1] Stackoverflow.com (Questions) - https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python
@@ -113,6 +136,8 @@ ________________________________________________________________________________
 [3] Pythonic.com (Weekday Function in Python) -  https://pythontic.com/datetime/date/weekday
 
 [4] W3schools.com (Python DateTime) - https://www.w3schools.com/python/python_datetime.asp
+
+[5] Askpython.com (python Datetime Module - An Ultimate Guide) - https://www.askpython.com/python-modules/python-datetime-module
 
 <br/>
 
